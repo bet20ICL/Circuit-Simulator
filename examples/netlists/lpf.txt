@@ -1,0 +1,8 @@
+* D:\OneDrive - Imperial College London\Imperial\Design Project\LTspice\lpf_example.asc
+V1 N001 0 AC 1 0
+R1 N002 N001 3k
+R2 N003 N002 1k
+C1 N003 0 1u
+.ac dec 21 1 10Meg
+.backanno
+.end
